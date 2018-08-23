@@ -1,6 +1,8 @@
 
 public class Basic {
 
+	
+	
 	public int method(int a, int b)
 	{
 		return a + b;
@@ -50,12 +52,13 @@ public class Basic {
 		}
 	}
 
-	// setting an array under the name intoArray to be of integers of length 10
-	int [] intoArray = new int[10]; 
-	
+		
 
 	public void enterArray(int a)
 	{
+		// setting an array under the name intoArray to be of integers of length 10
+		int [] intoArray = new int[10]; 
+		
 		for (int i = 0; i < intoArray.length; i++)
 		{
 			int c = a * i;
